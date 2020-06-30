@@ -11,6 +11,9 @@
 		902642E624AB9266008CDDE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902642E524AB9266008CDDE4 /* SceneDelegate.swift */; };
 		902642ED24AB926C008CDDE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 902642EC24AB926C008CDDE4 /* Assets.xcassets */; };
 		902642F024AB926C008CDDE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902642EE24AB926C008CDDE4 /* LaunchScreen.storyboard */; };
+		902642F824AB9E27008CDDE4 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902642F724AB9E27008CDDE4 /* SearchVC.swift */; };
+		902642FA24AB9F43008CDDE4 /* FavouritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902642F924AB9F43008CDDE4 /* FavouritesListVC.swift */; };
+		902642FC24ABA4D2008CDDE4 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902642FB24ABA4D2008CDDE4 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		902642EC24AB926C008CDDE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		902642EF24AB926C008CDDE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		902642F124AB926C008CDDE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		902642F724AB9E27008CDDE4 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		902642F924AB9F43008CDDE4 /* FavouritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesListVC.swift; sourceTree = "<group>"; };
+		902642FB24ABA4D2008CDDE4 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				902642EC24AB926C008CDDE4 /* Assets.xcassets */,
 				902642EE24AB926C008CDDE4 /* LaunchScreen.storyboard */,
 				902642F124AB926C008CDDE4 /* Info.plist */,
+				902642F724AB9E27008CDDE4 /* SearchVC.swift */,
+				902642F924AB9F43008CDDE4 /* FavouritesListVC.swift */,
+				902642FB24ABA4D2008CDDE4 /* TabBar.swift */,
 			);
 			path = GitHubFollowers;
 			sourceTree = "<group>";
@@ -131,7 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				902642F824AB9E27008CDDE4 /* SearchVC.swift in Sources */,
 				902642E424AB9266008CDDE4 /* AppDelegate.swift in Sources */,
+				902642FC24ABA4D2008CDDE4 /* TabBar.swift in Sources */,
+				902642FA24AB9F43008CDDE4 /* FavouritesListVC.swift in Sources */,
 				902642E624AB9266008CDDE4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,7 +287,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.juhoalin.GitHubFollowers;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juhoalin.GitHubFollowersJA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -293,7 +305,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.juhoalin.GitHubFollowers;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juhoalin.GitHubFollowersJA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

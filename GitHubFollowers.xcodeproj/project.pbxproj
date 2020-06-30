@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		902642E424AB9266008CDDE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902642E324AB9266008CDDE4 /* AppDelegate.swift */; };
 		902642E624AB9266008CDDE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902642E524AB9266008CDDE4 /* SceneDelegate.swift */; };
-		902642E824AB9266008CDDE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902642E724AB9266008CDDE4 /* ViewController.swift */; };
-		902642EB24AB9266008CDDE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902642E924AB9266008CDDE4 /* Main.storyboard */; };
 		902642ED24AB926C008CDDE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 902642EC24AB926C008CDDE4 /* Assets.xcassets */; };
 		902642F024AB926C008CDDE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902642EE24AB926C008CDDE4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -19,8 +17,6 @@
 		902642E024AB9266008CDDE4 /* GitHubFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		902642E324AB9266008CDDE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		902642E524AB9266008CDDE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		902642E724AB9266008CDDE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		902642EA24AB9266008CDDE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		902642EC24AB926C008CDDE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		902642EF24AB926C008CDDE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		902642F124AB926C008CDDE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,8 +54,6 @@
 			children = (
 				902642E324AB9266008CDDE4 /* AppDelegate.swift */,
 				902642E524AB9266008CDDE4 /* SceneDelegate.swift */,
-				902642E724AB9266008CDDE4 /* ViewController.swift */,
-				902642E924AB9266008CDDE4 /* Main.storyboard */,
 				902642EC24AB926C008CDDE4 /* Assets.xcassets */,
 				902642EE24AB926C008CDDE4 /* LaunchScreen.storyboard */,
 				902642F124AB926C008CDDE4 /* Info.plist */,
@@ -127,7 +121,6 @@
 			files = (
 				902642F024AB926C008CDDE4 /* LaunchScreen.storyboard in Resources */,
 				902642ED24AB926C008CDDE4 /* Assets.xcassets in Resources */,
-				902642EB24AB9266008CDDE4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +131,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				902642E824AB9266008CDDE4 /* ViewController.swift in Sources */,
 				902642E424AB9266008CDDE4 /* AppDelegate.swift in Sources */,
 				902642E624AB9266008CDDE4 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +139,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		902642E924AB9266008CDDE4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				902642EA24AB9266008CDDE4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		902642EE24AB926C008CDDE4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +278,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.juhoalin.GitHubFollowers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.juhoalin.GitHubFollowers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

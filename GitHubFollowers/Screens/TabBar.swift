@@ -14,6 +14,7 @@ class TabBar: UITabBarController {
         super.viewDidLoad()
         
         configureTabBar()
+        configureNavigationBar()
         
     }
     
@@ -37,7 +38,12 @@ class TabBar: UITabBarController {
         return UINavigationController(rootViewController: favouritesVC)
         
     }
-
+    
+    func configureNavigationBar() {
+        
+        UINavigationBar.appearance().tintColor = .systemGreen
+        
+    }
 
     func configureTabBar() {
         
@@ -45,7 +51,7 @@ class TabBar: UITabBarController {
         viewControllers = [createSearchNC(), createFavouritesNC()]
         
     }
-
+    
 }
 
 //MARK: - Preview

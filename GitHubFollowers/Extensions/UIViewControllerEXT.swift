@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SafariServices
 
 fileprivate var containerView: UIView!
 
@@ -70,6 +71,14 @@ extension UIViewController {
         
     }
     
+    func presentSafariView(url: URL) {
+        
+        let safariVC = SFSafariViewController(url: url)
+        safariVC.preferredControlTintColor = .systemGreen
+        
+        present(safariVC,animated: true)
+        
+    }
 
     
 }
